@@ -48,34 +48,7 @@ Thumbs.db
 # Bot data files
 server_settings.json
 
-# Sensitive files
-
 # Token files
 .token
-.discord.token
-.openai.token
-.google.token
-.github.token
-.slack.token
-.handler.token
-.other.token
-
-# API flles
-.api
-.discord.api
-.openai.api
-.google.api
-.github.api
-.slack.api
-.handler.api
-.other.api
-
-# Key files
 .token.key
-.discord.key
-.openai.key
-.google.key
-.github.key
-.slack.key
-.handler.key
-.other.key
+
