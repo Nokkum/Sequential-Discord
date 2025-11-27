@@ -31,10 +31,10 @@
 ## Project Structure
 ```
 .
-├─ .gitignore                 #
-├─ LICENSE                    #
-├─ README.md                  #
-├─ requirements.txt           #
+├─ .gitignore                 # Git ignore files
+├─ LICENSE                    # MIT License
+├─ README.md                  # Basic project readme 
+├─ requirements.txt           # Python dependencies
 └─ sequential/
   ├── bot.py                  # Main bot file and initialization
   ├── commands.py             # Slash commands (help, ping, serverinfo, etc.)
