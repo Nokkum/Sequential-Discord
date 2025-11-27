@@ -31,17 +31,16 @@
 ## Project Structure
 ```
 .
-├── bot.py                  # Main bot file and initialization
-├── commands.py             # Slash commands (help, ping, serverinfo, etc.)
-├── events.py               # Event handlers (welcome, goodbye)
-├── database.py             # JSON-based database manager
-├── utils.py                # Utility functions for formatting and embeds
-├── config.py               # Configuration constants
-├── token_sidebar.py        # GUI tool for securely storing and encrypting discord token credentials
-├── requirements.txt.       # Python dependencies
-├── server_settings.json    # Per-server settings storage (auto generated)
-├── .gitignore              # Git ignore files
-└── README.md               # Basic project readme
+│
+└─ sequential/
+  ├── bot.py                  # Main bot file and initialization
+  ├── commands.py             # Slash commands (help, ping, serverinfo, etc.)
+  ├── events.py               # Event handlers (welcome, goodbye)
+  ├── database.py             # JSON-based database manager
+  ├── utils.py                # Utility functions for formatting and embeds
+  ├── config.py               # Configuration constants
+  ├── token_sidebar.py        # GUI tool for securely storing and encrypting discord token credentials
+  └── server_settings.json    # Per-server settings storage (auto generated)
 ```
 
 ## Features
